@@ -1,0 +1,7 @@
+bc = BrickColor.new("Dark Stone blue")
+game.StarterGui:SetCore("ChatMakeSystemMessage", {
+    Text = "Kas sulle meeldib Anderi Tuss";
+    Font = Enum.Font.Cartoon;
+    Color = bc.Color;
+    FontSize = Enum.FontSize.Size96;    
+})
