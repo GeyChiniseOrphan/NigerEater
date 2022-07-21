@@ -1,0 +1,14 @@
+
+
+    local checkbox = "Button1"
+    local checkboxEnabled = "ID1"
+    local checkboxDisabled = "ID2"
+
+    function checkboxToggle()
+            if(checkbox.Image == checkboxDisabled)
+                checkbox.Image = checkboxEnabled
+            else
+                checkbox.Image = checkboxDisabled
+           end
+    end
+    checkbox.MouseButton1Click:Connect(checkboxToggle)
